@@ -2,8 +2,19 @@
 <head>
     <title>Project 1</title>
     <script src="D3JS.js"></script>
+    <script src="JavaScript.js"></script>
 </head>
 <body>
     <h1>This is the first project</h1>
-    <p>You are in the first page of the project!</p>
+    <p id="demo">
+
+    <script>
+
+        do{
+            sometext = prompt("Enter your name","");
+        } while (sometext == "" || sometext == null);
+
+        document.getElementById("demo").innerHTML = "Hello " + sometext + ", you are in the first page of the project!";
+
+    </script>
 </body>
