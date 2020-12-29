@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    background-color: #f21b3f;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #abff4f;
+  width: 90%;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 450px;
+
+}
+
+.flex-container > div {
+  margin: auto;
+  text-align: center;
+}
+#MainPageTitle {
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#p1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#TopBox {
+    background-color: #08bdbd;
+    overflow: hidden;
+    padding: 50px;
+}
+
+#LinkBox {
+    background-color: #ff9914;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    width: 30%;
+    height: 200px;
+}
+
+#LinkBox2 {
+    background-color: #ff9914;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    width: 30%;
+    height: 200px;
+}
+
+#InnerLinkBox {
+    background-color: white;
+    margin: 0;
+    overflow: hidden;
+}
+
+#Link {
+    color: white;
+    margin: auto;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    position: relative;
+    top: 80px;
+}
+
+#Link2 {
+    color: white;
+    margin: auto;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    position: relative;
+    top: 80px;
+}
+
