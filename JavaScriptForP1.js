@@ -1,6 +1,10 @@
 
-do {
-    var UserName = prompt("Enter your name: ");
-} while (UserName != null || UserName != "");
+var UserName = null;
 
-document.getElementById("demo").innerHTML = "Hello " + UserName + ", you are in the first page of the project!";
+window.onload = function () {
+    do{
+        UserName = prompt("Please enter your name");
+    } while (UserName == null || UserName == "");
+    
+    document.getElementById("demo").innerHTML = "Hello " + UserName + ", you are in the first page of the project!";
+}
