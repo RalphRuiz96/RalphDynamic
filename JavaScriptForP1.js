@@ -4,10 +4,10 @@ var UserName = null;
 window.onload = function () {
     do{
         UserName = prompt("Please enter your name");
-        if (UserName == null || UserName == "") {
-            continue;
-        } else {
+        if (UserName != null || UserName != "") {
             break;
+        } else {
+            continue;
         }
     } while (UserName == null || UserName == "");
     
