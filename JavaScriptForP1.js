@@ -1,5 +1,7 @@
 
-UserName = prompt("Enter your name: ");
+do {
+    var UserName = prompt("Enter your name: ");
+} while (UserName == null || UserName == "");
 
 if (UserName == null || UserName == "") {
     UserName = "Mr. Nobody";
